@@ -1,0 +1,16 @@
+{
+    "name": "Golden Cookie Clicks extension",
+    "version": "1.0",
+    "description": "Extension that counts Golden cookie clicks.",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://orteil.dashnet.org/cookieclicker/"],
+            "js": ["script.js"],
+            "css": ["style.css"],
+			"icons": {
+				"128": "PerfectCookie.png"
+			}
+        }
+    ]
+}
